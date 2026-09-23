@@ -1,0 +1,67 @@
+$ ./bin/fm-procevent-lavish.sh read tests/captures/lavish-0.1.45/lavish-yaml-capture.result  # post-fix
+SESSION-ENDING MESSAGE: (none)
+
+declared_items: 6
+presented_items: 6
+malformed_items: 0
+complete: yes
+lifecycle: feedback
+session_ended: true
+annotation_count: 6
+session_ending_message_count: 0
+
+ANNOTATIONS
+ANNOTATION 1 of 6
+element_uid: 1
+element_selector: div#app-popup > div:nth-of-type(3) > div > ol > li:nth-of-type(2)
+tag: li
+text:
+| synthetic text 2
+prompt:
+| synthetic prompt 1
+ANNOTATION 2 of 6
+element_uid: 1
+element_selector: div#app-popup > div:nth-of-type(2) > div:nth-of-type(1)
+tag: text
+text:
+| synthetic text 4
+target_type: text-range
+target_text:
+| synthetic text 5
+prompt:
+| synthetic prompt 3
+ANNOTATION 3 of 6
+element_uid: 2
+element_selector: div#app-popup > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(1)
+tag: div
+text:
+| synthetic text 7
+prompt:
+| synthetic prompt 6
+ANNOTATION 4 of 6
+element_uid: 4
+element_selector: div#app-popup > div:nth-of-type(3) > div
+tag: div
+text:
+| synthetic text 9
+prompt:
+| synthetic prompt 8
+ANNOTATION 5 of 6
+element_uid: 5
+element_selector: div#app-popup > div:nth-of-type(3) > div > ol > li:nth-of-type(5)
+tag: li
+text:
+| synthetic text 11
+prompt:
+| synthetic prompt 10
+ANNOTATION 6 of 6
+element_uid: 6
+element_selector: div#app-popup > div:nth-of-type(3) > div > ol > li:nth-of-type(6)
+tag: li
+text:
+| synthetic text 13
+prompt:
+| synthetic prompt 12
+END ANNOTATIONS
+END LAVISH RESULT (6 of 6)
+exit=0
