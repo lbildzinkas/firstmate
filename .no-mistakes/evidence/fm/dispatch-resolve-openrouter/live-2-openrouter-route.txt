@@ -1,0 +1,6 @@
+$ env -u NO_MISTAKES_GATE -u TYPESAFE_API_KEY OPENROUTER_API_KEY=fmgate-invalid-key-for-routing-proof FM_HOME=$LAB bin/fm-dispatch-resolve.sh $LAB/brief.md --project pager
+dispatch-resolve: error (http 401 after 0 ms: {"error":{"message":"Missing Authentication header","code":401}})
+dispatch-resolve:
+  status: error
+  reason: http 401 after 0 ms: {"error":{"message":"Missing Authentication header","code":401}}
+exit=0

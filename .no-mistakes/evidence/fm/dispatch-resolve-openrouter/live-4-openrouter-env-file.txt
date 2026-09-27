@@ -1,0 +1,7 @@
+--- $LAB/.env holds: export OPENROUTER_API_KEY="fmgate-invalid-key-for-routing-proof" (gitignored secrets file)
+$ env -u NO_MISTAKES_GATE -u OPENROUTER_API_KEY -u TYPESAFE_API_KEY FM_HOME=$LAB bin/fm-dispatch-resolve.sh $LAB/brief.md --project pager
+dispatch-resolve: error (http 401 after 1000 ms: {"error":{"message":"Missing Authentication header","code":401}})
+dispatch-resolve:
+  status: error
+  reason: http 401 after 1000 ms: {"error":{"message":"Missing Authentication header","code":401}}
+exit=0

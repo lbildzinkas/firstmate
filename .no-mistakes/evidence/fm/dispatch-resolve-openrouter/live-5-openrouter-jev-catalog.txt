@@ -1,0 +1,2 @@
+$ curl -sS https://openrouter.ai/api/v1/models | jq to list typesafe/jev models
+typesafe/jev-router

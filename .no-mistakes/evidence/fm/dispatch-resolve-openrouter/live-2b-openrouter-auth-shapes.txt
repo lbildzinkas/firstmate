@@ -1,0 +1,9 @@
+--- A: no Authorization header at all
+{"error":{"message":"No cookie auth credentials found","code":401}}
+http=401
+--- B: invalid key on argv
+{"error":{"message":"Missing Authentication header","code":401}}
+http=401
+--- C: invalid key read from fd 3, exactly like the tool
+{"error":{"message":"Missing Authentication header","code":401}}
+http=401
