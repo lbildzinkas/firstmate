@@ -1,0 +1,13 @@
+T2_WATCH_OUTPUT=signal: /private/var/folders/ng/f_l3tkbs2vd2dsh3lfd97mhh0000gn/T/fm-watch-recovery-loop.lfddaq/recovery-gap-successor/state/crew.status 
+T2_QUEUE_ROW=1790537430	2	signal	crew.status	signal: /private/var/folders/ng/f_l3tkbs2vd2dsh3lfd97mhh0000gn/T/fm-watch-recovery-loop.lfddaq/recovery-gap-successor/state/crew.status
+ok - a resurfacing handling successor stays alive and supervises instead of going blind
+T3_NOTE=queued 1790537433-ujH1UG
+  successor must surface this note
+  firstmate will pick this up at its next check.
+T3_MARKER=announced:downtime:66542.1790537433.DuqhM2
+T3_ROW=1790537433	1	check	inbox:1790537433-ujH1UG	check: captain inbox note 1790537433-ujH1UG - successor must surface this note
+ok - a handling successor announces a captain note's newer generation within a few polls
+T1_MESSAGES=1
+T1_LOCK_PID=69835
+T1_MARKER=announced:downtime:seed.1.aaa
+ok - unacknowledged recovery is announced at most once per generation and the successor stays alive

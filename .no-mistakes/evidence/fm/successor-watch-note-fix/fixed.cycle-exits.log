@@ -1,0 +1,1 @@
+arm_pid=15836	watcher_pid=15863	origin=started	started_at=1790537330	ended_at=1790537342	exit_code=0	signal=none	reason=actionable-check	beacon_age=0	lock_before=pid:15863|identity:Sun Sep 27 20:28:50 2026     bash /Users/luizbildzinkas/.no-mistakes/worktrees/ddca4c0d9ada/01M3J4Q0E1FX2AVH06K9JA3NE2/bin/fm-watch.sh	lock_after=pid:none|identity:none	successor=none

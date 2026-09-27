@@ -1,0 +1,2 @@
+ok - a resurfacing handling successor stays alive and supervises instead of going blind
+not ok - the note did not close the handling-successor cycle within a few polls: 

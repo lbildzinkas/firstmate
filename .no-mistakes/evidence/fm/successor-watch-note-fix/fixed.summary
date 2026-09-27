@@ -1,0 +1,13 @@
+LABEL=fixed
+TREE=869d5b9 fm-watch.sh=85562261 fm-wake-lib.sh=ee3ade56
+START=watcher: started pid=15863 (beacon fresh)
+SILENCE_PHASE=10s marker=acked:handling:seed.1.aaa announced=no
+NOTE_ID=1790537341-XgqgVi
+  telegram bridge: successor must surface this note
+  firstmate will pick this up at its next check. NOTE_CMD_OUT=queued 1790537341-XgqgVi
+  telegram bridge: successor must surface this note
+  firstmate will pick this up at its next check.
+QUEUE_ROW=1790537341	1	check	inbox:1790537341-XgqgVi	check: captain inbox note 1790537341-XgqgVi - telegram bridge: successor must surface this note
+CLOSED=yes LATENCY=2s BUDGET=30s
+FINAL_MARKER=announced:downtime:19504.1790537341.Vt3Q1Y
+ARM_REASON=check: rearm-resurface
